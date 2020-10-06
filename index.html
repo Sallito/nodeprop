@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Nodeprop - Especialistas em Soluções Digitais</title> 
+        <meta name="description" content="Agência especializada em Marketing Digital. Criação de aplicativos Mobile.">
+        <meta name="keywords" content="Agência Digital, Marketing, Sites">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Anderson Goulart">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&display=swap" rel="stylesheet"> 
+        <link rel="icon" href="img/icon.png">
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <a href="index.html"><h1 class="logo">Nodeprop - Especialistas em Soluções Digitais</h1></a>
+            <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close" >x</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+                <script src="js/scripts.js"></script>
+                <script>
+                    $(".btn-menu").click(function(){
+                        $(".menu").show();
+                    });
+                    $(".btn-close").click(function(){
+                        $(".menu").hide();
+                    });
+                </script>
+            </nav>
+        </header>
+    </body>
+</html>
